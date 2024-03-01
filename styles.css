@@ -4,10 +4,12 @@ body{
 body main{
     margin-left: 20px;
     text-align: center;
+    padding: 30% 0 30% 0;
 }
 
 h1{
     text-align: center;
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar ul{
@@ -17,6 +19,8 @@ h1{
     margin: 0%;
     overflow: hidden;
     text-align: right;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar a{
@@ -36,10 +40,28 @@ h1{
     color:black;
 }
 body{
-    background-color: beige;
+    background-color: rgba(26, 26, 21, 0.452);
 }
 footer{
     color:darkgrey;
     text-align: right;
     margin-right: 10px;
+}
+.right-p{
+    text-align: right;
+    padding-top: 5% 0 5% 0;
+    margin-right: 20px;
+}
+.left-p{
+    padding: 5% 0 5% 0 ;
+    text-align: left;
+}
+hr{
+    background-color:black;
+    height:2px;
+}
+
+.welcome{
+    font-size: 80px;
+    color:honeydew;
 }
